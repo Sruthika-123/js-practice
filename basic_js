@@ -1,0 +1,72 @@
+let a=5;
+
+if(a/2){
+    console.log("a is odd");
+}
+else{
+    console.log("a is even");
+}
+
+
+let b=67;
+
+if(b>=95 && b<100){
+    console.log("A+ grade");
+}
+else if(b>=90 && b<100){
+    console.log("A grade");
+}
+else if(b>=85 && b<90){
+    console.log("B+ grade");
+}
+else if(b>=80 && b<85){
+    console.log("B grade");
+}
+else if(b>=75 && b<80){
+    console.log("C+ grade");
+}
+else if(b>=70 && b<75){
+    console.log("C grade");
+}
+else if(b>=65 && b<70){
+    console.log("D+ grade");
+}
+else if(b>=60 && b<65){
+    console.log("D grade");
+}
+else{
+    console.log("Fail");
+}
+
+
+let c=397;
+if(c<=100){
+    console.log("no electric charge");
+}
+else if(c>=100 && c<=200){
+    console.log("the electricity charge is 2 rupees per unit:",c*2); 
+}
+else{
+    console.log("the electricity charge is 2 rupees per unit:",c*5);
+}
+
+
+let d=25;
+
+if(d<=50){
+console.log("d is not in range")
+}
+else{
+    console.log("d is in range");
+}
+
+let e=2;
+if(e>0){
+    console.log("e is positive");
+}
+else if(e<0){
+    console.log("e is negative");
+}
+else{
+    console.log("e is neutral");
+}
