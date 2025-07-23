@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form task1</title>
+</head>
+<body>
+
+<form id="myForm">
+    <label for="name">Image</label>
+    <input type="text" name="name" id="name" placeholder="Enter the picture link" required>
+    <button type="button" onclick="submitForm()">Click</button>
+</form>
+
+<img id="displayImage" src="https://tse2.mm.bing.net/th/id/OIP.7cRYFyLoDEDh4sRtM73vvwHaDg?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" height="500px" width="900px" alt="no-image">
+
+<script>
+    function submitForm() {
+        const imageUrl = document.getElementById('name').value;
+        const imgElement = document.getElementById('displayImage');
+        imgElement.src = imageUrl;
+    }
+</script>
+
+</body>
+</html>
